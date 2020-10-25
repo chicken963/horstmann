@@ -2,6 +2,10 @@ package com.horstmann.ch1;
 
 import java.util.Scanner;
 
+/**
+ * Напишите программу, вводящую три целочисленных значения и выводящую самое большое из них, используя только условную
+ * операцию. Сделайте то же самое с помощью метода Math.шах ().
+ */
 public class ex3 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);

@@ -3,6 +3,10 @@ package com.horstmann.ch1;
 import java.math.BigInteger;
 import java.util.Scanner;
 
+/**
+ * Напишите программу, вычисляющую факториал п! = 1 х 2 * . . . х п, используя класс Biglnteger.
+ * Вычислите факториал числа 1000.
+ */
 public class ex6 {
 
     public static void main(String[] args) {
@@ -12,7 +16,10 @@ public class ex6 {
         System.out.println("The answer is " + factorial(number));
     }
 
-    private static BigInteger factorial(int n){
+    public static BigInteger factorial(int n){
+        if(n == 0){
+            return BigInteger.ONE;
+        }
         int counter = 1;
         BigInteger factorial = BigInteger.valueOf(1);
         while (counter <= n){

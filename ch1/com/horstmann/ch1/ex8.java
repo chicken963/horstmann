@@ -2,6 +2,9 @@ package com.horstmann.ch1;
 
 import java.util.Scanner;
 
+/**
+ * Напишите программу, вводящую символьную строку и выводящую все ее непустые подстроки.
+ */
 public class ex8 {
 
     public static void main(String[] args) {

@@ -2,6 +2,11 @@ package com.horstmann.ch1;
 
 import java.util.Scanner;
 
+/**
+ * Напишите программу, составляющую произвольную символьную строку из букв и цифр, генерируя произвольное значение типа
+ * long и выводя его по основанию 36.
+ */
+
 public class ex10 {
     static final String AB = "0123456789abcdefghijklmnopqrstuvwxyz";
     private static char[] charSequence;

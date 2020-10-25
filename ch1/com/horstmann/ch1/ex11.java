@@ -2,6 +2,11 @@ package com.horstmann.ch1;
 
 import java.util.Scanner;
 
+/**
+ * Напишите программу, вводящую текстовую строку и выводящую все символы, не представленные в коде ASCII, вместе с их
+ * значениями в Юникоде.
+ */
+
 public class ex11 {
 
     public static void main(String[] args) {
