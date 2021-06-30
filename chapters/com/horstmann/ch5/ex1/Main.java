@@ -9,14 +9,8 @@ import java.io.IOException;
  * не относящиеся к числам с плавающей точкой.
  */
 public class Main {
-    public static void main(String[] args)  {
+    public static void main(String[] args) throws IOException {
         FileReader reader = new FileReader();
-        reader.readDoubles(getCurrentClassDirectory() + "numbers.txt");
-    }
-    private static String getCurrentClassDirectory(){
-        int extensionLength = 6;
-        String className = FileReader.class.getSimpleName();
-        String pathOfClass = FileReader.class.getResource(className + ".class").getPath();
-        return pathOfClass.substring(1, pathOfClass.length() - className.length() - extensionLength);
+        reader.sumOfValues("number1s.txt");
     }
 }

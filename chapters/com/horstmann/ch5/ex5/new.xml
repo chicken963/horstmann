@@ -1,0 +1,16 @@
+<book>
+    <name>1984</name>
+    <author>
+        <firstName>Джордж</firstName>
+        <secondName>Оруэлл</secondName>
+    </author>
+    <year>1948</year>
+</book>
+<book>
+<name>Скотный двор</name>
+<author>
+    <firstName>Джордж</firstName>
+    <secondName>Оруэлл</secondName>
+</author>
+<year>1943</year>
+</book>

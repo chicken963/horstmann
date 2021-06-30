@@ -7,8 +7,7 @@ import java.util.Scanner;
  * значениями в Юникоде.
  */
 
-public class ex11 {
-
+class ex11 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.print("Please enter the string to split: ");
