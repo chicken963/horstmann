@@ -19,6 +19,9 @@ public class Main {
     private static final int DOLLAR_ASCII_CODE = 36;
 
     public static boolean isAlphabetic(String word) {
+        if (word.isEmpty()) {
+            return false;
+        }
         while (word.matches("^[.,\\-?!«\"]+[\\w\\p{IsCyrillic}]+[.,\\-?!»\"]*$")) {
             word = word.substring(1);
         }
